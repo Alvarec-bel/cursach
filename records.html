@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Облік</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="news.html">Новини</a></li>
+                <li><a href="about.html">Про нас</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Облік</h1>
+        <table id="recordsTable">
+            <thead>
+                <tr>
+                    <th>Номер</th>
+                    <th>ПІБ</th>
+                    <th>Місто проживання</th>
+                    <th>ВЛК</th>
+                    <th>Дії</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <form id="recordForm">
+            <input type="text" id="recordNumber" placeholder="Номер" required>
+            <input type="text" id="recordName" placeholder="ПІБ" required>
+            <input type="text" id="recordCity" placeholder="Місто проживання" required>
+            <input type="text" id="recordVLK" placeholder="ВЛК" required>
+            <button type="submit">Додати</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+<footer>
+    <p>
+        Адреса: вулиця Тараса Шевченка, Київ |
+        Телефон: <a href="tel:+380123456789">+380123456789</a> |
+        Email: <a href="mailto:info@mobilization.com">info@mobilization.com</a>
+    </p>
+</footer>
+
+</html>
